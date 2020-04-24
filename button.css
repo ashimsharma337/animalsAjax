@@ -1,0 +1,30 @@
+h1{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0;
+    margin-top: 0px;
+
+
+}
+button{
+  background-color: aqua;
+  color: blue;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  border-radius: 15px;
+  outline: 0;
+  box-shadow: 10px 10px 0px skyblue;
+  position: relative;
+  left: 10px;
+  
+
+}
+button:hover{
+    background-color: antiquewhite;
+
+}
+button:active{
+    color: yellowgreen;
+    box-shadow: none;
+   
+}
