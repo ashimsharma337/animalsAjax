@@ -1,19 +1,32 @@
-h1{
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hideme{
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.75);
+}
+h1{ 
+    color: darkblue;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 0;
     margin-top: 0px;
 
 
+
 }
 button{
   background-color: aqua;
   color: blue;
+  margin-top: 20px;
   padding: 10px 20px;
   font-size: 1.5em;
   border-radius: 15px;
   outline: 0;
-  box-shadow: 10px 10px 0px skyblue;
+  box-shadow: 5px 5px 0px darkblue;
   position: relative;
   left: 10px;
   
@@ -24,7 +37,13 @@ button:hover{
 
 }
 button:active{
-    color: yellowgreen;
+    color: blueviolet;
     box-shadow: none;
+    background-color: darkblue;
    
+}
+p{
+    color: darkblue;
+    text-decoration: underline dotted;
+    font-size: 1.2em;
 }
